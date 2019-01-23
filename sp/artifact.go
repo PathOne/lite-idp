@@ -1,4 +1,4 @@
-// Copyright © 2017 Aaron Donovan <amdonov@gmail.com>
+// Copyright © 2017 Aaron Donovan <PathOne@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -24,7 +24,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/amdonov/lite-idp/saml"
+	"github.com/PathOne/lite-idp/saml"
 	log "github.com/sirupsen/logrus"
 )
 

@@ -1,4 +1,4 @@
-// Copyright © 2017 Aaron Donovan <amdonov@gmail.com>
+// Copyright © 2017 Aaron Donovan <PathOne@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -19,9 +19,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/amdonov/lite-idp/idp"
+	"github.com/PathOne/lite-idp/idp"
 
-	"github.com/amdonov/lite-idp/cmd"
+	"github.com/PathOne/lite-idp/cmd"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

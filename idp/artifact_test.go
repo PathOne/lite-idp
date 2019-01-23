@@ -1,4 +1,4 @@
-// Copyright © 2017 Aaron Donovan <amdonov@gmail.com>
+// Copyright © 2017 Aaron Donovan <PathOne@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,7 +20,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/amdonov/lite-idp/model"
+	"github.com/PathOne/lite-idp/model"
 	"github.com/golang/protobuf/proto"
 	"github.com/spf13/viper"
 	"github.com/stretchr/testify/assert"

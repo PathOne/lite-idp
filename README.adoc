@@ -1,9 +1,9 @@
 = LITE-IDP
 
-https://goreportcard.com/report/github.com/amdonov/lite-idp[image:https://goreportcard.com/badge/github.com/amdonov/lite-idp[Go Report Card]]
-https://travis-ci.org/amdonov/lite-idp[image:https://travis-ci.org/amdonov/lite-idp.svg?branch=master[Travis CI]]
-https://coveralls.io/github/amdonov/lite-idp?branch=master[image:https://coveralls.io/repos/github/amdonov/lite-idp/badge.svg?branch=master[Coverage Status]]
-image:https://quay.io/repository/amdonov/lite-idp/status["Docker Repository on Quay", link="https://quay.io/repository/amdonov/lite-idp"]
+https://goreportcard.com/report/github.com/PathOne/lite-idp[image:https://goreportcard.com/badge/github.com/PathOne/lite-idp[Go Report Card]]
+https://travis-ci.org/PathOne/lite-idp[image:https://travis-ci.org/PathOne/lite-idp.svg?branch=master[Travis CI]]
+https://coveralls.io/github/PathOne/lite-idp?branch=master[image:https://coveralls.io/repos/github/PathOne/lite-idp/badge.svg?branch=master[Coverage Status]]
+image:https://quay.io/repository/PathOne/lite-idp/status["Docker Repository on Quay", link="https://quay.io/repository/PathOne/lite-idp"]
 
 image::logo.png[]
 
@@ -47,7 +47,7 @@ To minimize external dependencies, the default build uses a single file to confi
 
 .Build the binary
 ----
-go get github.com/amdonov/lite-idp
+go get github.com/PathOne/lite-idp
 ----
 
 .Sample Configuration file
@@ -65,7 +65,7 @@ users:
       - John
      FullName: 
       - John Doe
- - name: amdonov
+ - name: PathOne
    password: '$2a$10$U41uarKrlduOofvJRC724.7V7RRZOciyC4TZ4UAQUtWuPuKVvByR.' # <2>
    attributes:
      SurName: 
@@ -95,7 +95,7 @@ All aspects of the IdP's behavior are customizable. It's controlled through an o
 
 .Section of lite-idp/cmd/root.go
 ----
-import "github.com/amdonov/lite-idp/idp"
+import "github.com/PathOne/lite-idp/idp"
 ...
 		idp := &idp.IDP{} // <1>
 		handler, err := idp.Handler()
@@ -116,7 +116,7 @@ command makes use of this feature and can be used as an example.
 
 ----
 
-import lidp "github.com/amdonov/lite-idp/cmd"
+import lidp "github.com/PathOne/lite-idp/cmd"
 ...
   rootCmd.AddCommand(lidp.AddCmd)
 	rootCmd.AddCommand(lidp.HashCmd)

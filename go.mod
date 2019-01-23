@@ -1,4 +1,4 @@
-module github.com/amdonov/lite-idp
+module github.com/PathOne/lite-idp
 
 require (
 	github.com/BurntSushi/toml v0.3.0 // indirect

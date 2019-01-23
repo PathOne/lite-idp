@@ -1,4 +1,4 @@
-// Copyright © 2017 Aaron Donovan <amdonov@gmail.com>
+// Copyright © 2017 Aaron Donovan <PathOne@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -20,8 +20,8 @@ import (
 	"text/template"
 	"time"
 
-	"github.com/amdonov/lite-idp/saml"
-	"github.com/amdonov/lite-idp/store"
+	"github.com/PathOne/lite-idp/saml"
+	"github.com/PathOne/lite-idp/store"
 	"github.com/amdonov/xmlsig"
 )
 

@@ -11,7 +11,7 @@ users:
       - John
      FullName: 
       - John Doe
- - name: amdonov
+ - name: PathOne
    password: '$2a$10$U41uarKrlduOofvJRC724.7V7RRZOciyC4TZ4UAQUtWuPuKVvByR.'
    attributes:
      SurName: 

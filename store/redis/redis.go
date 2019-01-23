@@ -1,4 +1,4 @@
-// Copyright © 2018 Aaron Donovan <amdonov@gmail.com>
+// Copyright © 2018 Aaron Donovan <PathOne@gmail.com>
 //
 // Licensed under the Apache License, Version 2.0 (the "License");
 // you may not use this file except in compliance with the License.
@@ -17,7 +17,7 @@ package redis
 import (
 	"time"
 
-	"github.com/amdonov/lite-idp/store"
+	"github.com/PathOne/lite-idp/store"
 	"github.com/go-redis/redis"
 	"github.com/spf13/viper"
 )

@@ -5,8 +5,8 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/amdonov/lite-idp/model"
-	"github.com/amdonov/lite-idp/saml"
+	"github.com/PathOne/lite-idp/model"
+	"github.com/PathOne/lite-idp/saml"
 	log "github.com/sirupsen/logrus"
 )
 
