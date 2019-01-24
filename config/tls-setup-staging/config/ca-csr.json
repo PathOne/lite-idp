@@ -1,0 +1,16 @@
+{
+  "CN": "pog idp",
+  "key": {
+    "algo": "rsa",
+    "size": 3072
+  },
+  "names": [
+    {
+      "O": "path one group",
+      "OU": "viv network",
+      "L": "norwalk",
+      "S": "connecticut",
+      "C": "usa"
+    }
+  ]
+}

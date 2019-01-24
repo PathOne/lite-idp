@@ -23,7 +23,7 @@ func init() {
 	viper.SetDefault("tls-certificate", "/etc/lite-idp/cert.pem")
 	viper.SetDefault("tls-private-key", "/etc/lite-idp/key.pem")
 	viper.SetDefault("tls-ca", "")
-	viper.SetDefault("listen-address", "127.0.0.1:9443")
+	viper.SetDefault("listen-address", ":9443")
 	viper.SetDefault("server-name", "idp.example.com:9443")
 	viper.SetDefault("metadata-path", "/metadata")
 	viper.SetDefault("sso-service-path", "/SAML2/Redirect/SSO")

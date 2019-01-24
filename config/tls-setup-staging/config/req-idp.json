@@ -1,0 +1,19 @@
+{
+  "CN": "pog idp",
+  "hosts": [
+    "saml-staging.justviv.com"
+  ],
+  "key": {
+    "algo": "rsa",
+    "size": 3072
+  },
+  "names": [
+    {
+      "O": "path one group",
+      "OU": "viv network",
+      "L": "norwalk",
+      "S": "connecticut",
+      "C": "usa"
+    }
+  ]
+}
